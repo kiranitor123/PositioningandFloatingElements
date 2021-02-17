@@ -1,10 +1,7 @@
-html {
-  height: -webkit-fill-available;
-}
-
 h2 {
   font-size: 16px;
   padding: 10px;
+  margin: 0;
 }
 
 nav {
@@ -21,12 +18,21 @@ button {
   color: #fff;
 }
 
-.nytColor {
-  color: #326891;
+a {
+  color: #000;
+  font-weight: 900;
+}
+
+a:link {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 main {
-  margin: 5%
+  margin: 5%;
 }
 
 iframe {
@@ -39,6 +45,15 @@ aside {
   width: 18%;
   float: left;
   right: 5%;
+}
+
+#firstImage {
+  height: 530px;
+  width: auto;
+}
+
+.nytColor {
+  color: #326891;
 }
 
 .centered {
@@ -89,17 +104,12 @@ aside {
   background-color: #fff;
 }
 
-#firstImage {
-  height: 530px;
-  width: auto;
-}
-
 .contentElements {
   height: 30px;
-    background-color: black;
-    margin: 10px;
-    display: inline-flex;
-    width: 30%;
+  background-color: black;
+  margin: 10px;
+  display: inline-flex;
+  width: 30%;
 }
 
 .secondImage {
@@ -119,28 +129,13 @@ aside {
 .secondaryContent {
   width: 100%;
   height: 170px;
-  /* padding: 23px; */
-  /* display: flex; */
-  /* justify-content: space-around;*/
 }
 
 .contentRigth {
   height: auto;
-  padding: 10px;  
+  padding: 10px;
   margin: 10px 0;
 }
-
-a {
-  color: #000;
-  font-weight: 900;
-}
-
-a:link { 
-  text-decoration: underline; 
-} 
-a:hover { 
-  text-decoration: none; 
-} 
 
 .grid-container {
   display: grid;
@@ -154,11 +149,7 @@ a:hover {
 .subtitle {
   margin: 0;
   text-align: right;
-  font-size: 10px;  
-}
-
-h2 {
-  margin: 0;
+  font-size: 10px;
 }
 
 .removeMargin {
@@ -182,7 +173,7 @@ h2 {
   display: flex;
   font-size: 10px;
   justify-content: space-between;
-  padding: 0px;
+  padding: 0;
 }
 
 .readMore {
@@ -193,15 +184,6 @@ h2 {
 
 .readme {
   width: 50%;
-}
-
-@font-face {
-  font-family: "nyfont";
-  src: url("assets/Chomsky.woff") format("woff"),
-}
-
-* {
-  font-family: nyfont,'Times New Roman', Times, serif;
 }
 
 .datesize {
