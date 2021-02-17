@@ -1,3 +1,174 @@
 nav {
-    background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  background-color: #567b95;
+  border-color: #326891;
+  color: #fff;
+}
+
+main {
+  margin: 5%
+}
+
+aside {
+  position: absolute;
+  height: 500px;
+  background-color: red;
+  width: 200px;
+  float: left;
+  right: 5%;  
+}
+
+
+.centered {
+  display: flex;
+}
+
+.separated {
+  margin: 10px;
+}
+
+.imagePrimary {
+  justify-content: center;
+  display: flex;
+}
+
+.title {
+  width: 600px;
+  margin: auto;
+}
+
+.social {
+  justify-content: center;
+  display: flex;
+}
+
+.description {
+  padding: 10px 40% 0 10%;
+}
+
+.secondSection {
+  margin: 0 20%;
+}
+
+.main {
+  height: 30px;
+  width: auto;
+}
+
+.stiky {
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+}
+
+#firstImage {
+  height: 530px;
+  width: auto;
+}
+
+.contentElements {
+  height: 30px;
+    background-color: black;
+    margin: 10px;
+    display: inline-flex;
+    width: 30%;
+}
+
+.secondImage {
+  width: 100%;
+}
+
+.leftContent {
+  width: 70%;
+}
+
+.rigthContent {
+  width: 30%;
+}
+
+.secondaryContent {
+  width: 100%;
+  height: 170px;
+  /* padding: 23px; */
+  /* display: flex; */
+  /* justify-content: space-around;*/
+}
+
+.contentRigth {
+  height: auto;
+  padding: 10px;  
+  margin: 20px 0;
+}
+
+a {
+  color: #000;
+  font-weight: 900;
+}
+
+a:link { 
+  text-decoration: underline; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+  padding: 10px;
+}
+
+.subtitle {
+  margin: 0;
+  text-align: right;
+  font-size: 10px;  
+}
+
+h2 {
+  margin: 0;
+}
+
+.removeMargin {
+  margin: 0;
+}
+
+.titlefooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.contentfooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.linksfooter {
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+p {
+  text-align: justify;
+}
+
+.readMore {
+  display: flex;
+  justify-content: stretch;
+}
+
+.readme {
+  width: 50%;
 }
