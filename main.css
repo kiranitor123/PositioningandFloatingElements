@@ -1,3 +1,12 @@
+html {
+  height: -webkit-fill-available;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 10px;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -11,19 +20,25 @@ button {
   color: #fff;
 }
 
+.nytColor {
+  color: #326891;
+}
+
 main {
   margin: 5%
 }
 
-aside {
-  position: absolute;
-  height: 500px;
-  background-color: red;
-  width: 200px;
-  float: left;
-  right: 5%;  
+iframe {
+  width: 100%;
 }
 
+aside {
+  position: absolute;
+  height: auto;
+  width: 18%;
+  float: left;
+  right: 5%;
+}
 
 .centered {
   display: flex;
@@ -49,11 +64,17 @@ aside {
 }
 
 .description {
-  padding: 10px 40% 0 10%;
+  padding: 5px 30% 0 8.5%;
+}
+
+.descriptionContent {
+  margin: 0;
+  font-size: 12px;
 }
 
 .secondSection {
-  margin: 0 20%;
+  width: 53%;
+  margin: auto;
 }
 
 .main {
@@ -86,10 +107,12 @@ aside {
 
 .leftContent {
   width: 70%;
+  padding: 10px;
 }
 
 .rigthContent {
   width: 30%;
+  padding: 10px;
 }
 
 .secondaryContent {
@@ -103,7 +126,7 @@ aside {
 .contentRigth {
   height: auto;
   padding: 10px;  
-  margin: 20px 0;
+  margin: 10px 0;
 }
 
 a {
@@ -158,17 +181,56 @@ h2 {
   display: flex;
   font-size: 10px;
   justify-content: space-between;
+  padding: 20px;
 }
 
-p {
+/* p {
   text-align: justify;
-}
+} */
 
 .readMore {
   display: flex;
   justify-content: stretch;
+  margin: 20px 0;
 }
 
 .readme {
   width: 50%;
+}
+
+@font-face {
+  font-family: "nyfont";
+  src: url("assets/Chomsky.woff") format("woff"),
+}
+
+* {
+  font-family: nyfont,'Times New Roman', Times, serif;
+}
+
+.datesize {
+  font-size: 13px;
+}
+
+.mainContentFontSize {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.infoContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.asideContent {
+  display: flex;
+  align-items: center;
+}
+
+.asideImage {
+  padding: 5px;
+}
+
+.contentVideo {
+  font-size: 15px;
 }
