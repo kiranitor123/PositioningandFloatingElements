@@ -12,6 +12,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  z-index: 9000;
 }
 
 button {
@@ -181,12 +182,8 @@ h2 {
   display: flex;
   font-size: 10px;
   justify-content: space-between;
-  padding: 20px;
+  padding: 0px;
 }
-
-/* p {
-  text-align: justify;
-} */
 
 .readMore {
   display: flex;
@@ -233,4 +230,9 @@ h2 {
 
 .contentVideo {
   font-size: 15px;
+}
+
+.subscribeContent {
+  display: flex;
+  align-items: center;
 }
