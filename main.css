@@ -180,7 +180,8 @@ figure {
   align-items: center;
 }
 
-.asideContent {
+.asideContent,
+.subscribeContent {
   align-items: center;
 }
 
@@ -190,10 +191,6 @@ figure {
 
 .contentVideo {
   font-size: 15px;
-}
-
-.subscribeContent {
-  align-items: center;
 }
 
 .faColor {
