@@ -1,14 +1,10 @@
 h2 {
   font-size: 16px;
-  padding: 10px;
-  margin: 0;
 }
 
 nav {
-  width: 100%;
-  display: flex;
   justify-content: space-around;
-  align-items: center;
+  border-bottom: 1px solid #000;
   z-index: 9000;
 }
 
@@ -19,16 +15,16 @@ button {
 }
 
 a {
+  font-weight: 400;
   color: #000;
-  font-weight: 900;
 }
 
 a:link {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 main {
@@ -47,6 +43,12 @@ aside {
   right: 5%;
 }
 
+figure {
+  margin: auto;
+  width: 80%;
+  padding-bottom: 40px;
+}
+
 #firstImage {
   height: 530px;
   width: auto;
@@ -56,17 +58,8 @@ aside {
   color: #326891;
 }
 
-.centered {
-  display: flex;
-}
-
 .separated {
   margin: 10px;
-}
-
-.imagePrimary {
-  justify-content: center;
-  display: flex;
 }
 
 .title {
@@ -75,8 +68,7 @@ aside {
 }
 
 .social {
-  justify-content: center;
-  display: flex;
+  margin: 20px auto;
 }
 
 .description {
@@ -84,7 +76,7 @@ aside {
 }
 
 .descriptionContent {
-  margin: 0;
+  margin-right: 30%;
   font-size: 12px;
 }
 
@@ -112,10 +104,6 @@ aside {
   width: 30%;
 }
 
-.secondImage {
-  width: 100%;
-}
-
 .leftContent {
   width: 70%;
   padding: 10px;
@@ -127,13 +115,11 @@ aside {
 }
 
 .secondaryContent {
-  width: 100%;
   height: 170px;
 }
 
 .contentRigth {
   height: auto;
-  padding: 10px;
   margin: 10px 0;
 }
 
@@ -142,43 +128,36 @@ aside {
   grid-template-columns: auto auto auto;
 }
 
-.grid-item {
-  padding: 10px;
+.grid-container-main {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
 }
 
 .subtitle {
-  margin: 0;
   text-align: right;
   font-size: 10px;
 }
 
-.removeMargin {
-  margin: 0;
-}
-
 .titlefooter {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   margin: 10px 0;
 }
 
-.contentfooter {
-  display: flex;
+.justify-content-space-betwee {
   justify-content: space-between;
+}
+
+.contentfooter {
   font-size: 15px;
 }
 
 .linksfooter {
-  display: flex;
   font-size: 10px;
-  justify-content: space-between;
   padding: 0;
 }
 
 .readMore {
-  display: flex;
-  justify-content: stretch;
   margin: 20px 0;
 }
 
@@ -188,6 +167,7 @@ aside {
 
 .datesize {
   font-size: 13px;
+  margin: 0;
 }
 
 .mainContentFontSize {
@@ -196,13 +176,11 @@ aside {
 }
 
 .infoContent {
-  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .asideContent {
-  display: flex;
   align-items: center;
 }
 
@@ -215,6 +193,72 @@ aside {
 }
 
 .subscribeContent {
-  display: flex;
   align-items: center;
+}
+
+.faColor {
+  color: #f0f2f3;
+}
+
+.socialIcons {
+  margin-right: 10px;
+}
+
+.titlearticle {
+  font-size: 15px;
+  margin: 0;
+}
+
+.lineheigth {
+  line-height: normal;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+.padding0 {
+  padding: 0;
+}
+
+.inflationContent {
+  width: 80%;
+  margin: auto;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font15 {
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.footerContent {
+  flex-direction: column;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.padding10 {
+  padding: 10px;
 }

@@ -4,34 +4,42 @@
 
 > Cloning the NYT Article.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screen.png)
 
-Additional description about the project and its features.
+Cloning the Article from scratch using only HTML and CSS
 
 ## Built With
 
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://kiranitor123.github.io/PositioningandFloatingElements/)
+
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
+Get a Computer with internet conexion
 ### Setup
-
+Clone or zip the github proyect
 ### Install
-
-### Usage
-
+Double click in the file index.html
 ### Run tests
-
+run npm i // to get the dependences
+run npx hint . //to run Webhint
+run npx stylelint "**/*.{css,scss}" //to run Stylelint
 ### Deployment
+SetUp the index, assets, and css in your web hosting and enjoy the page
+
+## Author
+
+👤 **@kiranitor123**
+
+- GitHub: [@githubhandle](https://github.com/kiranitor123)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rolando-diego-alvarez-faye-b2b34a1a9/)
 
 ## 🤝 Contributing
 
@@ -42,13 +50,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
